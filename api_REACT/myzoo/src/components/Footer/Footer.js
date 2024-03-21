@@ -11,6 +11,11 @@ const footer = (props) => (
                 <div className="text-white text-center">
                     MyZoo - Tout droits reservés.
                 </div>
+                <a href="https://www.newsletter.org" className="d-block" target="_blank">
+                    <div className="container text-white text-center">
+                        <i>Cliquez ici pour vous inscrire à notre newsletter.</i>
+                    </div>
+                </a>
                 <div className="row no-gutters align-items-center text-center pt-2">
                     <div className="col-3">
                         <a href="https://www.facebook.com" className="d-block" target="_blank" >
