@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TitreH1 from '../../../components/UserInterface/Titre/TitreH1';
 import banderole from '../../../assets/images/banderole.png'
 import logo from '../../../assets/images/logo.png'
+import lion  from '../../../assets/images/lion.jpeg'
 
 class Accueil extends Component {
     componentDidMount = () => { //Elle permet de lancer des actions après que le composant soit monté
@@ -54,6 +55,19 @@ class Accueil extends Component {
                         </div>
                         <div className='col-12 col-md-6'>
                             <img src={logo} alt ='logo du site' className='img-fluid' />
+                        </div>
+                        <div className='col-12 col-md-6'>
+                        {/* col-12 pour signifier que l'on prendra la moitié de l'écran pour les petits affichages et 
+                        "col-md-6" pour faire deux colones de moitié(6/12 = 1/2) à partir d'une taille moyenne d'écran */}
+                            <img src={lion} alt ='logo du site' className='img-fluid'/>
+                        </div>
+                        <div className='col-12 col-md-6'>
+                            <p>
+                            Dans nos vastes habitats naturels, vous découvrirez des créatures majestueuses provenant des quatre coins du monde. 
+                            Du rugissement puissant des lions à la grâce élégante des girafes, chaque rencontre promet une expérience inoubliable. 
+                            Nous nous engageons à recréer des environnements authentiques pour nos pensionnaires, garantissant ainsi 
+                            leur bien-être et permettant à nos visiteurs de s'immerger dans leur univers.
+                            </p>
                         </div>
                     </div>
                 </div>
