@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5 {
+  font-family:'Indie Flower', cursive;
+  text-align: center;
+  font-size: 1.5em; /* Ajustez la taille de la police selon vos préférences */
+  margin: 0; /* Supprime la marge par défaut du navigateur */
+  line-height: 1.2; /* Ajustez la hauteur de ligne selon vos préférences */
+  max-width: 750px; /* Ajustez la largeur maximale selon vos préférences */
+  margin: 0 auto; /* Centre l'élément h1 en utilisant auto pour la marge gauche et droite */
+}
+
+p{
+  text-align: justify;
+}
+
+.site{
+  min-height:100vh ;
+  margin-bottom: -140px;
+}
+
+footer,.minSite{
+  height: 140px;
+}
+
+.imgFcbTwt{
+  height: 75px;
+}
+
+.ytb{
+  height: 25px;
+}
+
+@media only screen and (max-width: 720px){
+  .imgFcbTwt{
+    height: 40px;
+  }
+  
+  .ytb{
+    height: 20px;
+  }
+  .site{
+    min-height:100vh ;
+    margin-bottom: -90px;
+  }
+  
+  footer,.minSite{
+    height: 90px;
+  }
+}
+
+.bootSP{
+  font-size : 1.125rem;
+  text-anchor : middle,
+}
