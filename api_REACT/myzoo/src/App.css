@@ -15,7 +15,7 @@ p{
 .site{
   min-height:100vh ;
   margin-bottom: -140px;
-  background-color: #ccc;
+  /* background-color: #ccc; */
 }
 
 footer,.minSite{
