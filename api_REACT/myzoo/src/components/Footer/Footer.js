@@ -10,6 +10,7 @@ const footer = (props) => (
             <footer className="bg-primary">
                 <div className="text-white text-center">
                     MyZoo - Tout droits reservés.
+                    Mentions Légales
                 </div>
                 {/* <a href="https://www.newsletter.org" className="d-block" target="_blank">
                     <div className="container text-white text-center">
