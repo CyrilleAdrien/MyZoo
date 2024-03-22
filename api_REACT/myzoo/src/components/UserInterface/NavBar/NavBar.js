@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../../../assets/images/logo.png";
 import {NavLink} from "react-router-dom";
+import Search_bar from "../../search_bar/search";
+import '../../search_bar/search.css';
 
 
 const navbar = (props) => (
@@ -23,8 +25,14 @@ const navbar = (props) => (
                     </li>
                     <li className="nav-item">
                         <NavLink to = '/animaux' exact ="true" className = "nav-link">Animaux</NavLink>
+                    </li>
+                    <li>
+                        <Search_bar className="left-aligned" />
                     </li>                    
                 </ul>
+            </div>
+            <div>
+                
             </div>
         </nav>
     </>
