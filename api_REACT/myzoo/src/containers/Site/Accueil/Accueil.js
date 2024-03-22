@@ -18,7 +18,7 @@ class Accueil extends Component {
                 <img src = {banderole} alt = "banderole" className='img-fluid'/>
                 <div className='container'>
                     <p>
-                        Bienvenue dans notre zoo, un sanctuaire de la faune sauvage où chaque visiteur devient gardien 
+                        Bienvenue dans le meilleur zoo, un sanctuaire de la faune sauvage où chaque visiteur devient gardien 
                         d'un monde fascinant. Explorez nos habitats naturels recréés avec amour, découvrez la diversité animale 
                         et laissez-vous émerveiller par la majesté des créatures. En tant que partenaire de cette aventure, votre
                         présence contribue à la préservation de la biodiversité. Bienvenue dans notre famille zoo, où la magie de 
