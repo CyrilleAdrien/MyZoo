@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "D:/School/Formation certifiante 1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"projectManager.git.baseFolders": [
+			"espace_de_travaille_myZoo"
+		],
+		"github-enterprise.uri": "https://c/"
+	}
+}
